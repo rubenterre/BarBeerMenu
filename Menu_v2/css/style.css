@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+    background-color: white;
+}
+
+/* Catálogo cervezas */
+
+#cervezas{
+  background-image: url(../img/beer-machine-alcohol-brewery_blur2.png);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.nombrecerveza{
+  padding-left: 20px;
+  text-align: left;
+}
+
+.tit_beer{
+  font-weight: 600;
+}
+
+.txt_beer{
+  font-weight: normal;
+  padding-left: 10px;
+}
+
+.menu{
+  top: 20%;
+  display: block;
+  position: fixed;
+  text-align: right;
+  flex-direction: column;
+  padding-left: 80%;
+}
+
+.sidenav{
+    width: 30%;
+}
+
+
+/* Menu filtro */
+
+.filterDiv {
+  display: none;
+}
+
+#BtnContainer {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  vertical-align: middle;
+}
+
+.show {
+  display: block;
+}
+
+.boton {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  vertical-align: middle;
+  text-align: center;
+  margin: 2px;
+  font-size: 10px;
+  background: #ffa726;
+  border-radius: 8px;
+  width: 70px;
+  height: 70px;
+}
+
+.boton:hover {
+  background: #FF4D27;
+  border: 1px solid #ffa726;
+  border-radius: 10px;
+  padding: 0px;
+}
+
+.boton.activos {
+  background-color: #FF4D27;
+  border-radius: 10px;
+  border: 1px solid #fff;
+  padding: 1px;
+}
